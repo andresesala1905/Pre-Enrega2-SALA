@@ -1,0 +1,76 @@
+/*Estilos generales del documento*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: #9FC5F8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+a {
+    text-decoration: none;
+    }
+
+.container {
+    background-color: beige;
+    width: 80%;
+    max-width: 1800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*ENCABEZADO*/
+/* header {
+   display: flex;
+   min-height: 75px;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #597EAA;
+} */
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #597EAA;
+ }
+
+h1{
+    display: flex;
+    background-color: #597EAA;
+    padding: 2rem;
+    font-size: xx-large;
+}
+.navbar {
+    background-color: #597EAA;
+}
+.navbar_list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar_item {
+    display: inline-block;
+    font-size:x-large;
+}
+
+.navbar_link {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+.active {
+    color: rgb(0, 1, 2);
+}
+.navbar a:hover {
+    color: rgb(240, 77, 232);
+}
+
+
